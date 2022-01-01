@@ -22,7 +22,7 @@ Description=Auto-Reboot1
 
 [Service]
 User=root
-ExecStart=/usr/local/bin/rebooter1.sh
+ExecStart=/usr/local/bin/auto-reboot1.sh
 
 [Install]
 WantedBy=default.target
