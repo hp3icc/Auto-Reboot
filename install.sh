@@ -32,4 +32,4 @@ EOF
 chmod +x /usr/local/bin/auto-reboot1.sh
 chmod 755 /lib/systemd/system/auto-reboot1.service
 systemctl daemon-reload
-systemctl enable autoreboot1.service 
+systemctl enable auto-reboot1.service 
