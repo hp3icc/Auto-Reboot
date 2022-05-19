@@ -5,7 +5,7 @@ cat > /usr/local/bin/auto-reboot1.sh <<- "EOF"
 sleep 180
 while :
 do
-SERVER=8.8.4.4
+SERVER=noip.com
 ping -c1 ${SERVER} > /dev/null
 if [ $? != 0 ]
 then
